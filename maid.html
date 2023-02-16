@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HOUSE MAID</title>
+    <style>
+      /* Style the advertisement blocks */
+      div.ad-block {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+      }
+      /* Style the heading for each advertisement block */
+      h2.ad-heading {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>maid</h1>
+    <div class="ad-block">
+      <h2 class="ad-heading">Mr V.Srinivasa </h2>
+      <p>Salary: 5,000 per month</p>
+      <p>Age: 20-45 years</p>
+      <p>Address: 12-3 Main Street,India</p>
+      <button id="btn1"><a href="Congrats.html">Apply</a></button>
+      <p id="contact1" style="display: none;">Contact Email: xyzwoodworks@email.com</p>
+    </div>
+    <div class="ad-block">
+      <h2 class="ad-heading">Mr Shiva</h2>
+      <p>Salary:6,000 per month</p>
+      <p>Age: 20-50 years</p>
+      <p>Address: 45-6 mahatma gandhi road, twotown,India</p>
+      <button id="btn2"><a href="Congrats.html">Apply</a></button>
+      <p id="contact2" style="display: none;">Contact Email: carpenter2@email.com</p>
+    </div>
+    <div class="ad-block">
+      <h2 class="ad-heading">ms mahima</h2>
+      <p>Salary: 5,000 per year</p>
+      <p>Age: 35-60 years</p>
+      
+      <p>Address: 7-89 Pinnacle Street,vijayanagaram,India</p>
+      <button id="btn3"><a href="Congrats.html">Apply</a></button>
+      <p id="contact3" style="display: none;">Contact Email: carpenter3@email.com</p>
+    </div>
+    <script>
+      // Show/hide the contact information when the button is clicked
+      document.getElementById("btn1").addEventListener("click", function() {
+        var x = document.getElementById("contact1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      });
+      document.getElementById("btn2").addEventListener("click", function() {
+        var x = document.getElementById("contact2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {

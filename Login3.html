@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Login Page</title>
+  </head>
+<style>
+body{
+background-image:url('log.jpg');
+background-size:cover;
+}
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;	
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="Password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
+  <body>
+    <div class="login-container">
+      <form action="#">
+        <h1>Login</h1>
+        <div class="form-group">
+          <label for="Phone Number">Phone Number:</label>
+          <input type="text" id="Phone Number" placeholder= "Enter your phone number "name="Phone Number" />
+        </div>
+        <div class="form-group">
+          <label for="password">One Time Password:</label>
+          <input type="Password" id="Password" placeholder="Enter your otp" name="Password" />
+        </div>
+        <button type="submit"><a href="Bullet.html">Submit</a></button>
+      </form>
+    </div>
+  </body>
+</html>
